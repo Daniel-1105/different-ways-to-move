@@ -1,0 +1,16 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id=")yeqw~fr_S$IcQzr79gN">Player</variable><variable type="KIND_SpriteKind" id="=X-Vw%_N?{UC6a,x.YA!">Projectile</variable><variable type="KIND_SpriteKind" id="0]ug5lle.G*w=-[NoJhT">Food</variable><variable type="KIND_SpriteKind" id="p%NOt`*^b5Yj8GuWxU)5">Enemy</variable><variable id="D/nXAQKCXvW(;S{tydr6">Dog</variable><variable id="IiRT^N@]`}A=LAN]1dD)">mySprite</variable></variables><block type="pxt-on-start" id="R1H/j;h%FftbZ#tJaYbo" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundcolor" id="JN=}E{xIx;:+#ui4kGL1"><value name="color"><shadow type="colorindexpicker" id="sigr9u,A-wy{OttGY`]V"><field name="index">1</field></shadow></value><next><block type="variables_set" id="8LJ+M3+-|Bp#XcsXgD@*"><field name="VAR" id="D/nXAQKCXvW(;S{tydr6">Dog</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="cp=Fwse/%Q$$Z-pS$Q|8"><value name="img"><shadow type="screen_image_picker" id="#JY-:?r(/WD^n|7z^do_"><field name="img">img`
+. . 4 4 4 . . . . 4 4 4 . . . . 
+. 4 5 5 5 e . . e 5 5 5 4 . . . 
+4 5 5 5 5 5 e e 5 5 5 5 5 4 . . 
+4 5 5 4 4 5 5 5 5 4 4 5 5 4 . . 
+e 5 4 4 5 5 5 5 5 5 4 4 5 e . . 
+. e e 5 5 5 5 5 5 5 5 e e . . . 
+. . e 5 f 5 5 5 5 f 5 e . . . . 
+. . f 5 5 5 4 4 5 5 5 f . . f f 
+. . f 4 5 5 f f 5 5 6 f . f 5 f 
+. . . f 6 6 6 6 6 6 4 4 f 5 5 f 
+. . . f 4 5 5 5 5 5 5 4 4 5 f . 
+. . . f 5 5 5 5 5 4 5 5 f f . . 
+. . . f 5 f f f 5 f f 5 f . . . 
+. . . f f . . f f . . f f . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"#JY-:?r(/WD^n|7z^do_"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="P_hbP|PdaLQ;)g!_k@u-"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesetsetstayinscreen" id="AVlI2Sr69rp8jY:or_a^"><value name="sprite"><block type="variables_get" id="(BxXiy(^(w/Qeb1Rha7$"><field name="VAR" id="D/nXAQKCXvW(;S{tydr6">Dog</field></block></value><value name="on"><shadow type="toggleOnOff" id="Anm2B+a|*,#a6#a|9nC8"><field name="on">true</field></shadow></value></block></next></block></next></block></statement></block><block type="gameupdate" id="Ck#@$-09.k,*S82r`7fV" x="10" y="290"><statement name="HANDLER"><block type="game_control_sprite" id="5ks|B[GqaUmWoc==g@:!"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="2" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="m8iz]JYcGI^g;4na2qM|"><field name="VAR" id="D/nXAQKCXvW(;S{tydr6">Dog</field></block></value><value name="vx"><shadow type="math_number" id="P?+,nHvhaq^W54zwnGhV"><field name="NUM">100</field></shadow></value><value name="vy"><shadow type="math_number" id="BV4Dp62kx-E$SU}}3SYM"><field name="NUM">100</field></shadow></value></block></statement></block></xml>
